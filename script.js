@@ -37,10 +37,6 @@ function createFallingSnowflake() {
 
 setInterval(createFallingSnowflake, 200); 
 
-function goToNextPage() {
-    window.location.href = 'kl/main.html'; 
-}
-
 document.addEventListener('click', () => {
     audio.play();
 });
